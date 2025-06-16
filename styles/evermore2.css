@@ -1,0 +1,206 @@
+/* Evermore RPG System 2.0 Stylesheet */
+
+.evermore2 .window-content {
+  background: url("../assets/parchment-bg.jpg");
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.evermore2 .sheet-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.evermore2 .profile-img {
+  flex: 0 0 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.evermore2 .header-fields {
+  flex: 1;
+}
+
+.evermore2 .header-fields .charname {
+  height: 50px;
+  padding: 5px;
+  margin: 5px 0;
+  border-bottom: 1px solid #7a7971;
+}
+
+.evermore2 .header-fields .charname input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.evermore2 .resource {
+  width: 50%;
+  height: 40px;
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+}
+
+.evermore2 .resource input {
+  width: 100px;
+  height: 28px;
+}
+
+.evermore2 .tabs {
+  flex: 0 0 100%;
+  margin: 5px 0;
+  padding: 0;
+  border-bottom: 1px solid #AAA;
+}
+
+.evermore2 .tabs .item {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #AAA;
+  border-radius: 4px 4px 0 0;
+  padding: 5px;
+  margin: 0 5px -1px 0;
+  cursor: pointer;
+}
+
+.evermore2 .tabs .item.active {
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  font-weight: bold;
+}
+
+.evermore2 .sheet-body {
+  overflow: hidden;
+}
+
+.evermore2 .sheet-body .tab {
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Attributes */
+.evermore2 .attributes-header {
+  padding: 5px;
+  margin: 5px 0;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #AAA;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.evermore2 .attribute-label {
+  flex: 1.5;
+  font-weight: bold;
+  text-align: left;
+}
+
+.evermore2 .attribute-control {
+  flex: 0 0 20px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 12px;
+}
+
+.evermore2 .attributes-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.evermore2 .attributes-list li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.evermore2 .attributes-list .attribute-value {
+  flex: 0 0 100px;
+  text-align: center;
+}
+
+.evermore2 .attribute-value input {
+  width: 50px;
+}
+
+/* Items */
+.evermore2 .items-header {
+  padding: 5px;
+  margin: 5px 0;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #AAA;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.evermore2 .items-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.evermore2 .items-list .item {
+  line-height: 30px;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.evermore2 .items-list .item .item-name {
+  cursor: pointer;
+}
+
+.evermore2 .items-list .item .item-name .item-image {
+  flex: 0 0 30px;
+  height: 30px;
+  background-size: 30px;
+  border: none;
+  margin-right: 5px;
+}
+
+.evermore2 .items-list .item-name {
+  flex: 2;
+  margin: 0;
+  overflow: hidden;
+  font-size: 13px;
+  text-align: left;
+  align-items: center;
+}
+
+.evermore2 .items-list .item-controls {
+  flex: 0 0 60px;
+  text-align: right;
+}
+
+/* Persona Section */
+.evermore2 .persona {
+  margin-bottom: 10px;
+}
+
+.evermore2 .persona .form-group {
+  margin: 5px 0;
+}
+
+.evermore2 .persona label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.evermore2 .persona select {
+  width: 100%;
+  height: 30px;
+}
+
+/* Rollable */
+.evermore2 .rollable:hover {
+  color: #000;
+  text-shadow: 0 0 10px red;
+  cursor: pointer;
+}
