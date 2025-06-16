@@ -15,13 +15,13 @@
   "esmodules": ["scripts/evermore2.js"],
   "styles": ["styles/evermore2.css"],
   "packs": [],
-  "languages": [{
+  "lang": [{
       "lang": "en",
       "name": "English",
       "path": "languages/en.json"}],
   "initiative": "wisdom",
-  "gridDistance": 5,
-  "gridUnits": "ft",
+  "grid.Distance": 5,
+  "grid.Units": "ft",
   "primaryTokenAttribute": "hp",
   "manifest": "https://raw.githubusercontent.com/gwav/Evermore2/main/system.json",
   "download": "https://github.com/gwav/Evermore2/archive/main.zip",
