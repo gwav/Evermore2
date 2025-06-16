@@ -24,7 +24,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "hp",
   "secondaryTokenAttribute": null,
-  "url": "",
+  "url": "https://raw.githubusercontent.com/gwav/Evermore2/main/system.json",
   "manifest": "https://raw.githubusercontent.com/gwav/Evermore2/main/system.json",
   "download": "https://github.com/gwav/Evermore2/archive/main.zip"
 }
