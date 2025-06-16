@@ -18,7 +18,7 @@
   "languages": [{
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"}],
+      "path": "languages/en.json"}],
   "initiative": "wisdom",
   "gridDistance": 5,
   "gridUnits": "ft",
